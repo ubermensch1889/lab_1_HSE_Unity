@@ -12,6 +12,8 @@ namespace _Source._Game
         
         [SerializeField] 
         private TextMeshProUGUI _text;
+        
+        public GameResource GameResource => _gameResource;
 
         public void Init(ResourceBank resourceBank)
         {

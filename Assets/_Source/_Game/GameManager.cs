@@ -8,8 +8,11 @@ namespace _Source._Game
     {
         [SerializeField] 
         private List<GameObject> _list = new();
+
         private ResourceBank _resourceBank;
-        
+
+        public ResourceBank ResourceBank => _resourceBank;
+
         public void Awake()
         {
             _resourceBank = new ResourceBank();
