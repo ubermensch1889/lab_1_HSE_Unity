@@ -1,4 +1,4 @@
-namespace _Source.Core
+namespace _Source._Core
 {
     public enum GameResource
     {
